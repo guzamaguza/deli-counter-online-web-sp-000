@@ -29,7 +29,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     firstInLine = array[0]
-    puts "Currently serviing #{firstInLine}"
+    puts "Currently serving #{firstInLine}"
     array.shift(firstInLine)
   end
 end
