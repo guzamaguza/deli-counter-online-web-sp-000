@@ -21,8 +21,9 @@ def take_a_number(katz_deli, name = 'Ada')
   else
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  end
 end
-end
+
 
 def now_serving(array)
   if array.length == 0
