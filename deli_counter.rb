@@ -9,7 +9,7 @@ def line(array)
       currentLine << "#{array.index(name)}. #{name} "
     end
   end
-  return currentLine
+  puts currentLine
 end
 
 def take_a_number(katz_deli, name)
