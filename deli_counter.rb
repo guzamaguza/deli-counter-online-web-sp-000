@@ -1,4 +1,4 @@
-katz_deli = []
+#katz_deli = []
 
 def line(array)
   if array.length == 0
@@ -6,7 +6,7 @@ def line(array)
   else
       currentLine = "The line is currently: "
     array.each do |name|
-      currentLine << "#{array.index(name)}. #{name}"
+      currentLine << "#{array.index(name)}. #{name} "
     end
   end
   return currentLine
