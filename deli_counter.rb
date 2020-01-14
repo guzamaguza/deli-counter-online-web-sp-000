@@ -9,7 +9,7 @@ def line(array)
   else
     puts "The line is currently: "
     array.each do |name|
-      puts "#{array.indexOf(name)}" + "." + name 
+      puts "#{array.indexOf(name)}" + "." + name
     end
     "The line is currently: 1. Ada 2. Grace 3. Kent"
   end
