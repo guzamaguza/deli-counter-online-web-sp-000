@@ -13,7 +13,7 @@ def line(array)
 
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, name = 'Ada')
   #number = katz_deli.index(name)
   if katz_deli.length == 0
   puts "Welcome, #{name}. You are number 1 in line."
