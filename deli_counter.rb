@@ -9,14 +9,13 @@ def line(array)
       StringOut << "#{array.indexOf(name)}" + ". #{name}"
     end
   end
+  return StringOut
 end
-
 
 def take_a_number(katz_deli, name)
   number = katz_deli.indexOf(name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
-
 
 def now_serving
     puts "There is nobody waiting to be served!"
