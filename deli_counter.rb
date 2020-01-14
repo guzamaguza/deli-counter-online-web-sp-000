@@ -2,7 +2,7 @@
 
 def line(array)
   if array.length == 0 || array.length == nil
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
       currentLine = "The line is currently: "
     array.each do |name|
