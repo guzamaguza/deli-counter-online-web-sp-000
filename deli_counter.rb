@@ -4,12 +4,12 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-      StringOut == "The line is currently: "
+      StrOut == "The line is currently: "
     array.each do |name|
-      StringOut << "#{array.indexOf(name)}" + ". #{name}"
+      StrOut << "#{array.indexOf(name)}" + ". #{name}"
     end
   end
-  return StringOut
+  return StrOut
 end
 
 def take_a_number(katz_deli, name)
