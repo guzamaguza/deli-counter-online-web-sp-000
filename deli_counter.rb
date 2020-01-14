@@ -10,11 +10,11 @@ def line(array)
     end
     puts currentLine
   end
-  
+
 end
 
 def take_a_number(katz_deli, name)
-  number = katz_deli.indexOf(name)
+  number = katz_deli.index(name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
