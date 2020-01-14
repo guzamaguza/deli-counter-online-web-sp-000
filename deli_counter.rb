@@ -1,7 +1,7 @@
 #katz_deli = []
 
 def line(array)
-  if array.length == 0
+  if array.length == 0 || array.length == nil
     return "The line is currently empty."
   else
       currentLine = "The line is currently: "
