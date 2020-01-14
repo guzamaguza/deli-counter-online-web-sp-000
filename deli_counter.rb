@@ -24,6 +24,8 @@ def take_a_number(katz_deli, name = 'Ada')
 end
 end
 
-def now_serving
-    puts "There is nobody waiting to be served!"
+def now_serving(array)
+    firstInLine = array[0]
+    puts "Currently serviing #{firstInLine}"
+    #puts "There is nobody waiting to be served!"
 end
