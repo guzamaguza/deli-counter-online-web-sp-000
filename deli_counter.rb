@@ -31,6 +31,6 @@ def now_serving(array)
   else
     firstInLine = array[0]
     puts "Currently serving #{firstInLine}."
-    array.shift(array[0])
+    array.shift
   end
 end
