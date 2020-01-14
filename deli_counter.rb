@@ -20,6 +20,7 @@ def take_a_number(katz_deli, name)
   else
   puts "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
 end
+end
 
 def now_serving
     puts "There is nobody waiting to be served!"
